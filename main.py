@@ -44,6 +44,10 @@ def main():
     return render_template('home.html')
 
 
+
+if __name__ == "__main__":
+        app.run(debug=True)
+
 # # Approach 2: Using RoBERTa Model:
 #
 # # Load the RoBERTa model and tokenizer
